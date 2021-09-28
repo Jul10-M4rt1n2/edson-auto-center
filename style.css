@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9491AE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+.top a{
+    width:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top h4{
+    color: white;
+    font-size: medium;
+}
+.instagram{
+    width: 100%;
+}
+.facebook{
+    width: 150%;
+}
+nav{
+    padding-top: 2%;
+    display: flex;
+    justify-content:space-between;
+}
+/*nav img{
+    width: 50%;
+}*/
+nav h1{
+    color: #7368EA;
+    font-size:xx-large;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.menu a{
+    font-size:larger;
+    color: white;
+    
+}
+.menu li :hover{
+    background-color:white;
+    color: black;
+    border-radius: 6%;
+    transition: 0.5s;
+}
+.banner img{
+    width: 100%;
+}
+section{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+section h1{
+    color: yellow;
+    margin-bottom: 2%;
+}
+.linha{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2%;
+}
+.card{
+    border: solid 1px;
+    padding: 1%;
+    background-color: white;
+    border-radius: 5%;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-size: medium;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.card h3{
+    color: #1CAB10;
+    text-align:end;
+}
+footer{
+    background-color: black;
+}
+/*footer img{
+    width: 10%;
+}*/
+footer h1{
+    color: #7368EA;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.footer{
+    padding: 3%;
+    justify-content: flex-end;
+}
+.footer a{
+    color: white;
+}
+.footer li :hover{
+    color: red;
+}
